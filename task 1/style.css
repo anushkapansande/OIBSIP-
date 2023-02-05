@@ -1,0 +1,179 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	/*scroll-behavior: smooth;*/
+}
+
+.LandingPG{
+	position: relative;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+	min-height: 100vh;
+	transition: .1s;
+	padding: 100px;
+	background-image: url(la1.JPG);
+	background-size: cover;
+	background-position: center;
+	animation: slide 11s infinite;
+}
+
+@keyframes slide{
+30%{
+		background-image: url(e5.jpeg);
+	}
+
+	40%{
+		background-image: url(la1.jpg);
+	}
+
+	10%{
+		background-image: url(la2.jpg);
+	}
+	
+	50%{
+		background-image: url(e1.jpeg);
+	}
+	
+	70%{
+		background-image: url(e3.JPG);
+	}
+	
+	80%{
+		background-image: url(e4.jpeg);
+	}
+	
+	
+
+}
+
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 30px 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logo{
+	position: relative;
+	font-weight: 600;
+	margin-left: 29px;
+	font-size: 29px;
+	color: red;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+
+header .nav{
+	position: relative;
+	display: flex;
+}
+
+header .nav li{
+	list-style: none;
+}
+
+header .nav li a{
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+	margin-top: 2px;
+	text-decoration: none;
+	font-size: 15px;
+	padding: 18px 18px;
+	text-transform: none;
+
+}
+
+
+header .nav li a:hover{
+	color: red;
+}
+
+header .nav li a span{
+	padding: 9px 22px;
+	outline: none;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	background-color: black;
+}
+
+header .nav li a span:hover{
+	background-color: red;
+	color: white;
+	transition: 1s;
+}
+
+.content{
+	position: relative;
+	margin-top: 100px;
+	margin-left: 22px;
+	display: flex;
+	width: 45%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.content .text-area h1{
+    text-transform: uppercase;
+    font-size: 47px;
+    margin-bottom: 6px;
+    color: white;
+    width: 60%;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.content .text-area h2{
+    font-size: 16px;
+    margin-bottom: 6px;
+    color: white;
+    margin-top: 10px;
+    min-width: 100px;
+    font-weight: 500;
+}
+
+.content .text-area h3{
+	text-transform: none;
+	margin-top: 15px;
+	font-size: 16px;
+	color: white;
+	letter-spacing: 10px;
+}
+
+.content .text-area h4{
+	text-transform: none;
+	font-size: 15px;
+	margin-bottom: 3px;
+	color: white;
+	letter-spacing: 2px;
+}
+
+.content .text-area a{
+	display: inline-block;
+	padding: 14px 24px;
+	margin-top: 5px;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: white;
+	letter-spacing: 2px;
+	border-radius: 5px;
+	font-weight: bold;
+	background-color: black;
+	text-decoration: none;
+}
+.content .text-area a:hover{
+	background-color: red;
+	color: white;
+	transition: 1s;
+}
